@@ -1,6 +1,6 @@
-
 /* HEIGHT 100%*/
-html, body{
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100%;
@@ -22,114 +22,159 @@ html, body{
 
 .bloco {
     min-height: 100%;
-    padding-top: 94px; 
+    padding-top: 94px;
 }
+
 /* COLORS*/
-.blue-logo{
+.blue-logo {
     background-color: rgb(0, 0, 0);
     color: #fff;
 }
-.blue-logo:hover{
+
+.blue-logo:hover {
     background-color: rgb(253, 253, 253);
     color: #000000;
 }
-.btn-large, .carousel-item img, .materialboxed ,.card ,.modal
-{
+
+.btn-large,
+.carousel-item img,
+.materialboxed,
+.card,
+.modal {
     border-radius: 10px;
 }
 
-.modal{
+.modal {
     width: 25%;
     align-content: center;
 }
 
 /* LOGO*/
 
-.logo_img{
-    width: 80px;
-    height: 80px;
-    margin-top:4px;
+
+
+@media only screen and (max-width: 480px) {
+    .logo_img {
+        width: auto;
+        height: auto;
+        margin-top: 4px;
+    }
 }
-/* MENU*/
-.navbar{
-    background-color: transparent;
-    transition: background 0.5s linear;
-    
+
+@media only screen and (min-width: 601px) {
+
+    .logo_img {
+        width: auto;
+        height: auto;
+        margin-top: 4px;
+    }
+}
+
+
+@media only screen and (min-width: 993px) {
+
+    .logo_img {
+        width: 80%;
+        height: 80%;
+        margin-top: 4px;
+    }
 
 }
-.navbar ul a:hover{
+
+/* MENU*/
+.navbar {
+    background-color: transparent;
+    transition: background 0.5s linear;
+
+
+}
+
+.navbar ul a:hover {
     background-color: rgb(248, 248, 248);
     color: rgb(0, 0, 0);
 }
-.nav-color{
-    background-color: rgb(0, 0, 0); 
+
+.nav-color {
+    background-color: rgb(0, 0, 0);
     transition: background 0.5s linear;
 }
 
 /* Home 100%*/
-.home{
-    animation:mudarbg 20s infinite;
- 
+.home {
+    animation: mudarbg 20s infinite;
+
     background-repeat: no-repeat;
     background-size: cover;
 }
-.banner h2{
+
+.banner h2 {
     font-size: 2.5rem;
     font-weight: 900;
     text-transform: uppercase;
 }
-.banner p{
+
+.banner p {
     font-size: 1.2rem;
     line-height: 1.8rem;
 }
-ul li a{
-    font-size:16px;
-    font-weight: 600; 
+
+ul li a {
+    font-size: 16px;
+    font-weight: 600;
 }
+
 /* TITULO E PARAGRAFO*/
-.titulo{
+.titulo {
     font-weight: 20px;
-    font-size:3rem; 
+    font-size: 3rem;
     text-transform: uppercase;
     font-family: Arial;
 }
-.titulo::after{
-    content:'';
-    display:block;
-    width:100px;
+
+.titulo::after {
+    content: '';
+    display: block;
+    width: 100px;
     border-top: 2px solid #00a846;
     margin: 15px auto;
 }
-.paragrafo{
+
+.paragrafo {
     line-height: 1.8rem;
 }
-.par{
+
+.par {
     font-weight: 10px;
     font-size: 20px;
     font-family: Arial;
 }
+
 /*SOBRE*/
-.sobre{
+.sobre {
     background-color: #fff;
 }
 
-.sobre .missao-visao-valores{
+.sobre .missao-visao-valores {
     background-image: url('../img/flagyellow.jpg');
     padding: 20px 0;
     margin-top: 35px;
 }
-.sobre .missao-visao-valores .icon{
+
+.sobre .missao-visao-valores .icon {
     color: #000000;
 }
-.sobre .missao-visao-valores h3{
+
+.sobre .missao-visao-valores h3 {
     font-size: 1.5rem;
     color: #000000;
     text-transform: uppercase;
 }
-.sobre .missao-visao-valores p{
-    color:#000000;
+
+.sobre .missao-visao-valores p {
+    color: #000000;
     text-align: center;
 }
+
 /* SERVIÇOS*/
 
 
@@ -137,38 +182,44 @@ ul li a{
 
 /* UNIDADES */
 .unidades {
- 
+
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-.unidades article p{
+
+.unidades article p {
     line-height: 1.8rem;
 }
+
 /*CONTATO*/
 .contato {
     background-color: #fff;
     padding-bottom: 1%;
     align-items: center;
 }
+
 .contato h4 {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 900;
 }
+
 .contato .mapa {
-    min-height:560px;
-}
-.contato .mapa iframe{
-    width:100%;
     min-height: 560px;
-    border:none;
 }
-.contato .informacoes{
+
+.contato .mapa iframe {
+    width: 100%;
+    min-height: 560px;
+    border: none;
+}
+
+.contato .informacoes {
     background-color: #000000;
     min-height: 560px;
     padding: 30px;
-  
+
     padding-bottom: 10%;
 }
 
@@ -178,27 +229,32 @@ ul li a{
     padding-bottom: 10%;
     background-color: #000000;
 }
+
 /* DEPOIMENTOS */
 .depoimentos {
-    background-image:url('../img/textura2.png');
+    background-image: url('../img/textura2.png');
     font-family: 'Britannic Bold';
 }
 
-.depoimentos .titulo::after{
+.depoimentos .titulo::after {
     border-color: #fff;
 }
-.depoimentos img{
+
+.depoimentos img {
     width: 100px;
     border-radius: 20px;
 }
-.depoimentos h4{
+
+.depoimentos h4 {
     font-size: 1.6rem;
 
 }
-.depoimentos p{
+
+.depoimentos p {
     font-size: 1rem;
- 
+
 }
+
 /* RODAPE*/
 .rodape {
     background-color: #000000;
@@ -206,56 +262,72 @@ ul li a{
     background-size: cover;
     padding: 30px 0;
 }
+
 /*Bibliografia*/
 
 /* CUSTOM*/
-  nav.nav-extended .nav-wrapper {
+nav.nav-extended .nav-wrapper {
     min-height: 94px;
-  }
-  .navbar-fixed {
-    position: absolute;
-    height: 94px;
-  }
-  nav,nav i,
-nav [class^="mdi-"], nav [class*="mdi-"],
-nav i.material-icons, nav a.sidenav-trigger {
-  height: 94px;
-  line-height: 94px;
 }
 
-.sidenav li:hover{
+.navbar-fixed {
+    position: absolute;
+    height: 94px;
+}
+
+nav,
+nav i,
+nav [class^="mdi-"],
+nav [class*="mdi-"],
+nav i.material-icons,
+nav a.sidenav-trigger {
+    height: 94px;
+    line-height: 94px;
+}
+
+.sidenav li:hover {
     background-color: rgb(0, 0, 0);
-    color:#fff;
+    color: #fff;
     font-weight: 100;
 }
-.sidenav li a:hover{
-    color:#fff;
+
+.sidenav li a:hover {
+    color: #fff;
     font-weight: 100;
 }
-.row{
-    margin-bottom:0;
+
+.row {
+    margin-bottom: 0;
 }
-.tabs{
-    background-color:#222;
-    
+
+.tabs {
+    background-color: #222;
+
 }
-.tabs .tab a{
-    color:#fff;
+
+.tabs .tab a {
+    color: #fff;
 }
-.tabs .tab a:hover, .tabs .tab a.active{
-    color:#03441e;
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+    color: #03441e;
 }
-.tabs .indicator{
+
+.tabs .indicator {
     background-color: #03441e;
 }
+
 /* Imagem de noticias & fundo dos cards */
 .card {
     background-color: #fff;
     display: flex;
     flex-direction: column;
-    height: 100%; /* Ensures all cards have the same height */
+    height: 100%;
+    /* Ensures all cards have the same height */
 }
-.card-content{
+
+.card-content {
     flex-grow: 1;
 }
 
@@ -263,13 +335,17 @@ nav i.material-icons, nav a.sidenav-trigger {
     height: 250px;
     width: 350px;
     border-radius: 23px;
-    overflow: hidden; /* To ensure image doesn't overflow */
+    overflow: hidden;
+    /* To ensure image doesn't overflow */
 }
 
 .Pixel img {
-    height: 100%; /* Ensures image fills container height */
-    width: 100%; /* Ensures image fills container width */
-    object-fit: cover; /* Maintain aspect ratio and cover container */
+    height: 100%;
+    /* Ensures image fills container height */
+    width: 100%;
+    /* Ensures image fills container width */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover container */
 }
 
 /* MEDIA */
@@ -312,17 +388,20 @@ nav i.material-icons, nav a.sidenav-trigger {
 }
 
 /* New Thing*/
-/* Principal Text */ 
+/* Principal Text */
 .text-with-shadow {
-            color: white;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Offset-x, Offset-y, Blur-radius, Color */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Offset-x, Offset-y, Blur-radius, Color */
 }
+
 .social-icons {
     display: flex;
 }
 
 .social-icons a {
-    margin-right: 10px; /* Adjust spacing between icons as needed */
+    margin-right: 10px;
+    /* Adjust spacing between icons as needed */
 }
 
 
@@ -333,7 +412,8 @@ nav i.material-icons, nav a.sidenav-trigger {
 
 .carousel {
     width: 100%;
-    max-width: 1080px; /* Adjust max-width as needed */
+    max-width: 1080px;
+    /* Adjust max-width as needed */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -346,7 +426,8 @@ nav i.material-icons, nav a.sidenav-trigger {
 
 .video {
     width: 100%;
-    height: 100vh; /* Set the height of each video slide to fit the viewport */
+    height: 100vh;
+    /* Set the height of each video slide to fit the viewport */
     flex: 0 0 auto;
 }
 
@@ -357,7 +438,8 @@ nav i.material-icons, nav a.sidenav-trigger {
 
 @media (max-width: 768px) {
     .video {
-        height: 100%; /* Adjust height for smaller devices */
+        height: 100%;
+        /* Adjust height for smaller devices */
     }
 }
 
